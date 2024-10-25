@@ -9,8 +9,12 @@ import java.util.List;
 @Service
 public class CharacterApiService {
 
-    private final RestClient restClient = RestClient.builder().build();
+    private final RestClient restClient;
 
+    public CharacterApiService(RestClient.Builder builder) {
+        restClient = builder
+                .build();
+    }
 
     public List<ApiCharacter> loadAllCharacters() {
         ApiResponse body = restClient.get()
