@@ -22,6 +22,7 @@ public class CharacterController {
 
     @PostMapping
     public ApiCharacter addRickAndMortyCharacter(@RequestBody String name) throws JsonProcessingException {
-        return characterService.addCharacter(name);
+        List.of().get(0);
+        return null;
     }
 }
