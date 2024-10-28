@@ -1,8 +1,7 @@
 package de.neuefische.java.cgnjava245api;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +18,10 @@ public class CharacterController {
     @GetMapping
     public List<ApiCharacter> getAllRickAndMortyCharacters() {
         return characterService.getAllCharacters();
+    }
+
+    @PostMapping
+    public ApiCharacter addRickAndMortyCharacter(@RequestBody String name) throws JsonProcessingException {
+        return characterService.addCharacter(name);
     }
 }
