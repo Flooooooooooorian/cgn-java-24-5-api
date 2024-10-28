@@ -1,14 +1,10 @@
-package de.neuefische.java.cgnjava245api;
+package de.neuefische.java.cgnjava245api.chatgpt;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.neuefische.java.cgnjava245api.chatgpt.ChatGptFormat;
-import de.neuefische.java.cgnjava245api.chatgpt.ChatGptMessage;
-import de.neuefische.java.cgnjava245api.chatgpt.ChatGptRequest;
-import de.neuefische.java.cgnjava245api.chatgpt.ChatGptResponse;
+import de.neuefische.java.cgnjava245api.character.ApiCharacter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 

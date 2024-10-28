@@ -1,4 +1,4 @@
-package de.neuefische.java.cgnjava245api;
+package de.neuefische.java.cgnjava245api.character;
 
 public record ApiLocation(
         String name,

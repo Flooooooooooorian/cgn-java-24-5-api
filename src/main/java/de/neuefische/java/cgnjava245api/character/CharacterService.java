@@ -1,6 +1,7 @@
-package de.neuefische.java.cgnjava245api;
+package de.neuefische.java.cgnjava245api.character;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import de.neuefische.java.cgnjava245api.chatgpt.ChatGptApiService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

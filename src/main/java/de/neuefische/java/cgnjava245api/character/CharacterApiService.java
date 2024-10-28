@@ -1,9 +1,8 @@
-package de.neuefische.java.cgnjava245api;
+package de.neuefische.java.cgnjava245api.character;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
-import java.time.Instant;
 import java.util.List;
 
 @Service

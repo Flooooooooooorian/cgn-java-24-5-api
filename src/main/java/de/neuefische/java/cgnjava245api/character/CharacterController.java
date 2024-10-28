@@ -1,4 +1,4 @@
-package de.neuefische.java.cgnjava245api;
+package de.neuefische.java.cgnjava245api.character;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.web.bind.annotation.*;
